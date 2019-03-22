@@ -2,3 +2,8 @@
 .gb-main-title {
     text-align: center;
 }
+
+.gb-footer {
+    min-height: 40px;
+    width: 100%;
+}
