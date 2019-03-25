@@ -1,4 +1,6 @@
 @import './sections/hero_section.css';
+@import './sections/bio_section.css';
+
 .gb-main-title {
     text-align: center;
 }
@@ -8,4 +10,9 @@
     width: 100%;
 }
 
-
+.gb-navbar {
+    background: transparent !important;
+    float: left !important;
+    color: red !important;
+    z-index: 50;
+}
