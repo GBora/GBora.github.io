@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>George Bora</title>
-    <link rel="stylesheet" href="./css_libs/bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>George Bora</title>
+<link rel="stylesheet" href="./css_libs/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="./css/main.css">
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			
 </head>
 <body>
-    <div class="gb-hero">
-        <div class="gb-hero-portrait">
-            
-        </div>
+<div class="gb-hero">
+    <div class="gb-hero-portrait">
+
     </div>
-    <div class="container">
-        <section id="gb-biography">
-            <h2>My Life</h2>
-            <img class="gb-biography__img" src="./images/alba_iulia_bw.jpg" alt="">
-        </section>
+</div>
+<div class="container">
+    <section id="gb-biography">
+        <h2>My Life</h2>
+        <div class="gb-bio-container">
+            <button id="past">Past</button>
+            <div id="gb-bio-slide">
+                <div>
+                    <img class="gb-biography__img" src="./images/alba_iulia_bw.jpg" alt="">
+                    <div class="gb-biography__text">
+                       <p>Born and raised in Alba Iulia, Romania.</p>
+                       <p>I took my first steps as programmer here at the Math-Informatics class of the "Horia Closca and Crisan" highschool. </p>
+                    </div>
+                </div>
+                <div>
+                    <img class="gb-biography__img" src="./images/utcn-e1429527464858.jpg" alt="">
+                    <div class="gb-biography__text">
+                        <p>I continued my education at the Technical University of Cluj Napoca, where I got my bachelor's degree in Automatics and Applied Informatics.</p>
+                        <p>I was lucky enough to receive an Erasmus scholarship to do my final paper at the Munchen Technical University.</p>
+                    </div>
+                </div>
+                <div>
+                    WIP slide with softvision
+                </div>
+                <div>
+                    WIP slide with pitech
+                </div>
+                <div>
+                    WIP slide with future
+                </div>
+            </div>
+            <button id="future">Future</button>
     </div>
+    </section>
+</div>
+<script src="./js/site.js"></script>
 </body>
 </html>
