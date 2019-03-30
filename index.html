@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>George Bora</title>
 <link rel="stylesheet" href="./css_libs/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="./css/main.css">
 
@@ -19,10 +20,14 @@
 </div>
 <div class="container">
     <section id="gb-biography">
-        <h2>My Life</h2>
+        <h2 class="gb-biography__title">My Life</h2>
         <div class="gb-bio-container">
-            <button id="past">Past</button>
-            <div id="gb-bio-slide">
+           <div class="row">
+               <div class="col-2">
+                   <span class="oi oi-arrow-thick-left bio-arrow" id="past"></span>
+               </div>
+               <div class="col-8">
+                   <div id="gb-bio-slide">
                 <div>
                     <img class="gb-biography__img" src="./images/alba_iulia_bw.jpg" alt="">
                     <div class="gb-biography__text">
@@ -31,24 +36,44 @@
                     </div>
                 </div>
                 <div>
-                    <img class="gb-biography__img" src="./images/utcn-e1429527464858.jpg" alt="">
+                    <img class="gb-biography__img" src="./images/utcn_bw.jpg" alt="">
                     <div class="gb-biography__text">
                         <p>I continued my education at the Technical University of Cluj Napoca, where I got my bachelor's degree in Automatics and Applied Informatics.</p>
                         <p>I was lucky enough to receive an Erasmus scholarship to do my final paper at the Munchen Technical University.</p>
                     </div>
                 </div>
                 <div>
-                    WIP slide with softvision
+                    <img class="gb-biography__img" src="./images/logo-insta-01.jpg" alt="">
+                    <div class="gb-biography__text">
+                        <p>My first job as a professional programmer was at Softvision, an IT firm here in Cluj.</p>
+                        <p>It was a great opportunity for me as I could learn real software engineering practices within the context of 
+                        large projects.</p>
+                        <p>I mainly worked with C# specifically ASP.NET MVC but I also did a little front-end development mostly Javascript.</p>
+                    </div>
                 </div>
                 <div>
-                    WIP slide with pitech
+                    <img class="gb-biography__img" src="./images/pitech.png" alt="">
+                    <div class="gb-biography__text">
+                        <p>I currently work as a web developer at Pitech.</p>
+                        <p>Due to the rise of SPA's the front-end of most site has become complex enough that I spend most of my time working front-end with a great emphasis on Javascript.</p>
+                        <p>I am also leveraging my command of Javascript on the back-end with Node.js striving for the capabilities of a full stack developer.</p>
+                    </div>
                 </div>
                 <div>
-                    WIP slide with future
+                  <img class="gb-biography__img" src="./images/future.jpg" alt="">
+                    <div class="gb-biography__text">
+                        <p>
+                            One man cannot summon the future. But one man can change the present!
+                        </p>
+                    </div>
                 </div>
             </div>
-            <button id="future">Future</button>
-    </div>
+               </div>
+               <div class="col-2">
+                   <span class="oi oi-arrow-thick-right bio-arrow" id="future"></span>
+               </div>
+           </div>     
+        </div>
     </section>
 </div>
 <script src="./js/site.js"></script>

@@ -1,7 +1,26 @@
 #gb-biography {
-    margin-top: 100px;
+    margin-top: 8rem;
 }
 
 .gb-biography__img {
     width: 100%;
+}
+
+.bio-arrow {
+    font-size: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bio-arrow:hover {
+    cursor: pointer;
+}
+
+.gb-biography__title {
+    text-align: center;
+}
+
+.gb-biography__text {
+   margin-top: 2rem; 
 }
