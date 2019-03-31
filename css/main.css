@@ -16,3 +16,18 @@
     color: red !important;
     z-index: 50;
 }
+
+section {
+    min-height: 50vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section:nth-child(even) {
+    background: #090c9b;
+    color: #fcf7f8;
+}
+
+.gb-tx-center {
+    text-align: center;   
+}
