@@ -85,7 +85,31 @@
         <h2>WIP Other works/sites section</h2>
     </section>
     <sectiong- id="gb-form">
-        <h2>WIP: contact me</h2>
+        <div class="row">
+		        <form class="col-md-4 gb-contact-form" action="https://formspree.io/george.bora@outlook.com" method="POST">
+                  <div class="form-group">
+                      <h2>Getting in touch</h2>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input  type="email" 
+                            class="form-control"
+                            id="gb-contact-email"
+                            name="free-dice-feedback-email" 
+                            placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Your feedback</label>
+                    <textarea class="form-control" 
+                              id="contact-comment" 
+                              name="free-dice-feedback-comment"
+                              rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" class="btn btn-primary" value="Get In Touch">
+                  </div>
+                </form>
+		    </div>
     </sectiong->
 </div>
 <script src="./js/site.js"></script>
