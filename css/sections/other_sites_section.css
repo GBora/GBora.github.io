@@ -2,3 +2,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.gb-os__wrapper a {
+   color: #fcf7f8; 
+    text-align: center;
+}
+
+.gb-os__wrapper a img {
+    display: block;
+    margin: 2rem auto;
+}
