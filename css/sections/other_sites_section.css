@@ -4,11 +4,12 @@
 }
 
 .gb-os__wrapper a {
-   color: #fcf7f8; 
+    color: #000; 
     text-align: center;
 }
 
 .gb-os__wrapper a img {
     display: block;
     margin: 2rem auto;
+    width: 100px;
 }
