@@ -2,6 +2,7 @@
 @import './sections/bio_section.css';
 @import './sections/contact_section.css';
 @import './sections/other_sites_section.css';
+@import './sections/tech_section.css';
 
 .gb-main-title {
     text-align: center;
