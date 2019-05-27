@@ -4,3 +4,8 @@ $('#gb-bio-slide').slick({
     initialSlide: 3,
     infinite: false
 });
+
+$('#gb-tech-vertical').slick({
+    infinite: false,
+    vertical: true
+});
