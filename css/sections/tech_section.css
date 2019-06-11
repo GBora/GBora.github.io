@@ -3,3 +3,8 @@
     width: 100%;
     max-width: 100px;
 }
+
+.gb-techs__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}

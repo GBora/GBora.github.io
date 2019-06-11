@@ -7,5 +7,7 @@ $('#gb-bio-slide').slick({
 
 $('#gb-tech-vertical').slick({
     infinite: false,
-    vertical: true
+    vertical: true,
+    prevArrow: "#up",
+    nextArrow: "#down",
 });
