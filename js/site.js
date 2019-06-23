@@ -29,7 +29,8 @@ let techs = $('.gb-tech');
 for (var i = 0;  i < techs.length; i++) {
     var tech = techs[i];
     // For each tech icon set an on click;
-    tech.addEventListener('click', (event) => {
+    $(tech).click(function(event) {
+        {
         // Reset the active class so that no 2 techs are active at the same time
         var currentlyActiveTech = document.querySelector('.tech-row div.active');
         if (currentlyActiveTech) {
@@ -48,6 +49,8 @@ for (var i = 0;  i < techs.length; i++) {
                 $('#gb-tech-vertical').slick('slickGoTo', j);
             }
         }
+    }
     })
+//    tech.addEventListener('click', )
 }
 
