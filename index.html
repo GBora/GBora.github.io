@@ -77,7 +77,7 @@
     <section id="gb-techs">
         <h2 class="gb-tx-center">Technologies I work with</h2>
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-7 d-none d-md-flex">
                 <div class="row tech-row">
                     <div class="gb-tech col-sm-3 mb-5 active" id="html-icon">
                         <img src="./images/lang_html.svg" alt="html">
@@ -108,12 +108,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-               <div class="col-12 mb-3 gb-tx-center">
+            <div class="col-sm-12 col-md-5">
+               <div class="col-12 mb-3 gb-tx-center d-none d-md-block">
                    <span class="oi oi-arrow-thick-top bio-arrow" id="up"></span>
                </div>
                 <div id="gb-tech-vertical">
                     <div class="tech-slide-text" id="html-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_html.svg" alt="html">
+                        </div>
                         <p>
                             Obviously HTML is the basis of all web-development, so I couldn't be honest and not mention this templating language.
                         </p>
@@ -126,6 +129,9 @@
                         </p>
                     </div>
                     <div class="tech-slide-text" id="css-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_css.svg" alt="css">
+                        </div>
                         <p>
                             CSS is the most succesfull and obiquotous style sheet language used in programming.
                         </p>
@@ -138,6 +144,9 @@
                         </p>
                     </div>
                     <div class="tech-slide-text" id="js-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_js.svg" alt="js">
+                        </div>
                         <p>
                             The main language I work in for the moment, it is incredibly varied and from it's beginings in the browser it has
                             been ported to more and more other enviroments (servers, mobile applications, desktop, robotics) leading to it becoming an unique, very flexible and very powerfull tool.
@@ -150,6 +159,9 @@
                         </p>
                     </div>
                     <div class="tech-slide-text" id="node-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_node.svg" alt="node">
+                        </div>
                         <p>
                             One of my favorite technologies to work with, Node allows a developer to unify large portions of the web stack and reduce much of the mental overhead which has led us to diving ourselves into smaller and smaller roles.
                         </p>
@@ -161,34 +173,49 @@
                         </p>
                     </div>
                     <div class="tech-slide-text" id="cpp-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_c_plus.svg" alt="c++">
+                        </div>
                         <p>C++ is probably the most innovative and rewarding language to master and then use.</p>
                         <p>It's speed and the tools it puts at your disposal coupled with it's interoperability with other languages make
                         it essential for a huge number of domains where the layman doesn't expect to find software.</p>
                         <p>My most important uses for it have been during my time in academia where I dabbled a bit in robotics and computer vision as well as AI.</p>
                     </div>
                     <div class="tech-slide-text" id="csharp-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_c_sharp.svg" alt="c#">
+                        </div>
                         <p>The first language I used as a professional programmer, I still have fond memories of working on ASP.Net MVC applications</p>
                         <p>In manny ways it is a trailblazer taking features from more experimental languages and introducing them to the mainstream programming scene.</p>
                         <p>Besides it's theoretical advantages, it is also one of the languages most used in the corporate world thus presenting it's own unique chalenges and opportunities.</p>
                     </div>
                     <div class="tech-slide-text" id="java-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_java.svg" alt="java">
+                        </div>
                         <p>I'll always have a certain fondness for Java, it's verbosity while great also leaves little room for the dreaded ambiguity usually.</p>
                         <p>It's inherent OOP nature means that most often best practices are enforced and the code is readable and understandable by many others.</p>
                         <p>With an ecosystem as vast as and as least as many use cases as Javascript Java is not only a language I can use to tackle any problem but it also often has open source solutions ready to go.</p>
                     </div>
                     <div class="tech-slide-text" id="angular-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_angular.svg" alt="angular">
+                        </div>
                         <p>One of the most important weapons I have at my disposal, Angular is many things: the first SPA framework I cut my teeth on, the 1.x versions remain a easy to use framework with which you can easily prototype web apps in, the 2+ versions have evolved into a state of the line framework for delivering serious SPA for large scale projects.</p>
                         <p>While it has it's own particularities, it also has a lot of excelent best practices baked into the framework so much so that some developers don't even notice that they are using dependency injection for example.</p>
                         <p>Angular has a host of component libraries at it's disposal, and altough using Angular has it's costs it's a very solid framework which will never leave you rushing to plug in a gap in your stack.</p>
                         <p>Ultimately I think the greatest advantage Angular has brought me is knowing the value of a unified arhitecture but also the flexibility that is required when you need to connect your own application with other people's code.</p>
                     </div>
                     <div class="tech-slide-text" id="react-text">
+                        <div class="d-md-none gb-slide-icon-container mb-3 mt-3">
+                            <img src="./images/lang_react.svg" alt="react">
+                        </div>
                         <p>React has taken the web development world (and not only) by storm. Originally used to tackle a small site called Facebook which you might have heard about it's now being used everywhere.</p>
                         <p>What I really love about React is that it does one thing: allows you to create components and does that really well.Beyond that you of course connect all of your components into one application and then it gets interesting.</p>
                         <p>Besides the core of React one often needs to use other libraries which are designed for it but are outside of the framework technically. Redux offers a very good way to handle the huge volumes of information required for any modern application.</p>
                     </div>
                 </div>
-                <div class="col-12 mt-5 gb-tx-center">
+                <div class="col-12 mt-5 gb-tx-center d-none d-md-block">
                    <span class="oi oi-arrow-thick-bottom bio-arrow" id="down"></span>
                </div>
             </div>

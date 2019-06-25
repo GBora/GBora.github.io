@@ -10,6 +10,12 @@ $('#gb-tech-vertical').slick({
     vertical: true,
     prevArrow: "#up",
     nextArrow: "#down",
+    responsive: [
+        {
+            breakpoint: 500,
+            settings: "unslick"
+        }
+    ]
 });
 
 $('#gb-tech-vertical').on('afterChange', function(event, slick, currentSlide){

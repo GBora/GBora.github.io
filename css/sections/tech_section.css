@@ -23,3 +23,13 @@
 .gb-tech {
     cursor: pointer;
 }
+
+.tech-slide-text {
+    min-height: 400px !important;
+    overflow-y: visible !important;
+}
+
+.gb-slide-icon-container img {
+    display: block;
+    margin: 0 auto;
+}
