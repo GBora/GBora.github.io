@@ -36,3 +36,32 @@
     margin-right: auto;
     max-width: 800px;
 }
+
+@media (max-width: 47.9em) {
+    
+    .gb-bio-slider-row {
+        flex-wrap: wrap;
+    }
+    
+    .gb-bk-arrow-container {
+        order: 2;
+        flex: 0 0 50% !important;
+        max-width: 50%!important;
+        text-align: right !important;
+    }
+
+    .gb-bio-slider-container {
+        order: 1;
+        flex: 0 0 100% !important;
+        max-width: 100%!important;
+    }
+
+    .gb-fw-arrow-container {
+        order: 3;
+        flex: 0 0 50% !important;
+        max-width: 50%!important;
+        text-align: left !important;
+    }
+}
+
+
