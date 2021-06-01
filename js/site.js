@@ -1,7 +1,7 @@
 $('#gb-bio-slide').slick({
     prevArrow: "#past",
     nextArrow: "#future",
-    initialSlide: 3,
+    initialSlide: 4,
     infinite: false
 });
 
